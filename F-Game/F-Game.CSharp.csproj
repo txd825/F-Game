@@ -72,6 +72,8 @@
     <Compile Include="Assets\FreeMachineGun\Scripts\FireTheGun.cs" />
     <Compile Include="Assets\Joystick.cs" />
     <Compile Include="Assets\PlayerController.cs" />
+    <Compile Include="Assets\Script\GunFire.cs" />
+    <Compile Include="Assets\Script\PlayFirePartical.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
