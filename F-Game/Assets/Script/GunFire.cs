@@ -14,7 +14,6 @@ public class GunFire : MonoBehaviour {
         {
             if(Time.frameCount%5 == 0)
             {
-                print("fire");
                
             }
         }
