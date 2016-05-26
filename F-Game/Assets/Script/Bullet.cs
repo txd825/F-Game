@@ -5,9 +5,10 @@ public class Bullet : MonoBehaviour {
 
 	void OnCollisionEnter(Collision collision)
     {
-        print("got you");
+        //print("got you");
         Destroy(this.gameObject);
     }
+
 
     
 }

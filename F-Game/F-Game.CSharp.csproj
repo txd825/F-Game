@@ -76,6 +76,7 @@
     <Compile Include="Assets\Script\FirePoint.cs" />
     <Compile Include="Assets\Script\GunFire.cs" />
     <Compile Include="Assets\Script\PlayFirePartical.cs" />
+    <Compile Include="Assets\Script\ShootButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />
