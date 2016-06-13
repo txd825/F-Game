@@ -74,9 +74,11 @@
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\Script\Bullet.cs" />
     <Compile Include="Assets\Script\FirePoint.cs" />
+    <Compile Include="Assets\Script\GSensorContoller.cs" />
     <Compile Include="Assets\Script\GunFire.cs" />
     <Compile Include="Assets\Script\PlayFirePartical.cs" />
     <Compile Include="Assets\Script\ShootButton.cs" />
+    <Compile Include="Assets\Scripts\GyroController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\FreeMachineGun\Shader\BDCS.shader" />

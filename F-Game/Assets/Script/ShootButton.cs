@@ -10,25 +10,20 @@ public class ShootButton : MonoBehaviour {
     public GameObject point;
     public float bulletspeed;
     public GameObject firepartical;
-    private bool shooting = false;
 
     public void shoot()
     {
         print("你成功了");
-        shooting = true;
-        while (shooting)
-        { 
-                GameObject x = Instantiate(bullet);
-                x.transform.position = point.transform.position;
-                x.transform.up = point.transform.forward;
-                x.GetComponent<Rigidbody>().velocity = point.transform.forward * bulletspeed * 10;
-        }
+        GameObject x = Instantiate(bullet);
+        x.transform.position = point.transform.position;
+        x.transform.up = point.transform.forward;
+        x.GetComponent<Rigidbody>().velocity = point.transform.forward * bulletspeed * 10;
         firepartical.GetComponent<ParticleSystem>().Play();
     }
     public void stopshoot()
     {
         firepartical.GetComponent<ParticleSystem>().Stop();
-        shooting = false;
+
     }
 
 }
